@@ -30,6 +30,6 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         binding.apply {
             navBottom.setupWithNavController(navController)
-        }
+        } //
     }
 }
